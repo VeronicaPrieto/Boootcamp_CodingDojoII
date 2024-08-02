@@ -9,13 +9,12 @@
     }
   
     speakWisdom() {
-      this.drinkSake(); // Llama al método drinkSake() de Ninja
+      this.drinkSake(); 
       console.log("Lo que un programador puede hacer en un mes, dos programadores pueden hacerlo en dos meses.");
     }
   }
   
   // Ejemplo de uso
   const superSensei = new Sensei("Master Splinter");
-  superSensei.speakWisdom(); // Output: "Lo que un programador puede hacer en un mes, dos programadores pueden hacerlo en dos meses."
-  superSensei.showStats();   // Output: Nombre: Master Splinter | Salud: 210 | Velocidad: 10 | Fuerza: 10
-  
+  superSensei.speakWisdom();
+  superSensei.showStats();
